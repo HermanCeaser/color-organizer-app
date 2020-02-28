@@ -1,0 +1,53 @@
+#close {
+	position: absolute;
+}
+
+
+.color-container {
+	height: 300px;
+	width: 320px;
+	border: 2px solid rgba(35,70,140,0.7);
+	border-radius: 5px;
+	background: rgba(128, 128, 128, 0.17);
+	margin: 5px 10px;
+	display: inline-block;
+}
+.color-name{
+	height: 30%;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 30px;
+	text-align: center;
+}
+.color {
+	height: 40%;
+	background-color: blue; 
+}
+.star-rating {
+	padding: 30px;
+	height: 30%;
+	text-align: center;
+}
+
+@media (min-width: 992px) {
+	.color-container {
+		height: 350px;
+		width: 320px;
+	}	
+}
+
+@media (min-width: 768px){
+	.color-container {
+		height: 320px;
+		width: 320px;
+	}	
+	.color-name{
+		height: 30%;
+		font-weight: bold;
+		font-size: 1.5em;
+		padding: 30px;
+		text-align: center;
+	}
+}
+
+
