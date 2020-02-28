@@ -1,18 +1,18 @@
 # Color Organizer
 
--CoLor Organizer App 
--This is an app created with react state and props.
--You can add a color to your library using a color picker, rate it and also remove that color.
+## CoLor Organizer App 
+- This is an app created with react state and props.
+- You can add a color to your library using a color picker, rate it and also remove that color.
 
 ### Upcoming Functionality
 - Editing the color in your library
 - Managing state using redux and Flux Pattern
 - Creating a color Pallette from your library
 
-#### Tools Used
--ReactJs
--Css
--Bootstrap
+### Tools Used
+- ReactJs
+- Css
+- Bootstrap
 
 ## How To Install And Run The Application
 
