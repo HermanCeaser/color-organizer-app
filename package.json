@@ -6,6 +6,7 @@
     "npm": "6.10.2",
     "node": "12.9.1"
   },
+  "homepage": "http://hermanceaser.github.io/color-organizer-app",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -22,6 +23,8 @@
   "scripts": {
     "start": "node server.js",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
